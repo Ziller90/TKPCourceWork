@@ -1,0 +1,23 @@
+.upperRow {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    color: #eeeaea;
+    margin: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    margin: 0;
+}
+.wrap {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #3a3541;
+}
+.table {
+    margin-bottom: 100px
+}

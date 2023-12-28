@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh 0 25vh 0;
+    height: 70vh;
+    background-color: #3a3541;
+}
+
+.card {
+    height: content-box;
+    width: 40vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(88, 154, 40, 0.21);
+}
+
+.title {
+    margin: 50px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
+    color: #615f70;
+}
+
+.field {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+    margin: 0 40px 10px 50px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px
+}
+
